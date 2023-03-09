@@ -5,16 +5,11 @@ body::-webkit-scrollbar{
     width: 7px;
 }
 
-body::-webkit-scrollbar-thumb{
-    background: #ff9d;
-}
 
 .outlet{
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-height: 100vh;
-    overflow-y: scroll;
 }
 
 .container__general-products{

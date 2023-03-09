@@ -1,0 +1,125 @@
+
+.container-main {
+    padding: 40px 0px 19px;
+    margin: auto;
+}
+
+.container-history {
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    margin: 0px 44px;
+    background: #131E29;
+    padding: 34px 40px 46px;
+}
+.container-history-title{
+    margin-bottom: 40px;
+}
+.container-history-title span{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 3px;
+}
+
+.container-history-title p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.formulario{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+}
+.formulario p{
+    text-align: left;
+}
+.formulario div{
+    
+    padding: 1px 16px;
+    padding-bottom: 25px;
+    color: #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+    
+}
+
+.genero div {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.genero-checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.genero-checkbox input {
+    margin-right: 15px;
+}
+.women {
+    margin-right: 15px;
+}
+
+.conditions{
+    display: flex;
+    flex-direction: row;
+    margin: 17px 0px 0px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.conditions button {
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 3px 45px 3.84px;
+    background-color: #EA0029;
+    margin: 0px 0px 0px 58px;
+    width: 230px;
+    height: 40px;
+    letter-spacing: 0.5em;
+}
+
+.conditions span {
+    font-weight: bold;
+    text-decoration: underline;
+    align-items: center;
+}
+
+.conditions input{
+    margin-right: 7px;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.image-conventions {
+    margin: 10px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    
+}
+
+.image-conventions img {
+    width: 512.61px;
+    height: 31.48px;
+}
