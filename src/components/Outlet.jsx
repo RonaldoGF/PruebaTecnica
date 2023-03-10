@@ -19,6 +19,17 @@ function WindowSize() {
 
 export const Outlet = () => {
     const sizeWindow = WindowSize();
+    const [listProducts, setlistProducts ] = useState([]);
+    useEffect(() => {
+        const fetchListProducts = async() => {
+            const response = await fetch('http://localhost:3400/listPrices', { 
+                method: 'GET'
+            });
+            const data = await response.json();
+            setlistProducts(data)
+        }
+        fetchListProducts();
+    },[]);
   return (
     <>
         { 
@@ -161,58 +172,22 @@ export const Outlet = () => {
                                 <div className='title-others-products'>También te puede <span>INTERESAR</span></div>
                             </div>
                             <div className='items-products'>
-                                <div className='item-product'> 
-                                    <img src="https://moviesshopco.vteximg.com.br/arquivos/ids/173253/234571-abrigos-y-chaquetas-hombre-naruto-shippuden-chaqueta-1.jpg?v=638107753976430000" alt="" />
-                                    <div className='title-item'>NARUTO</div>
-                                    <div className='description-item'>Chaqueta de hombre, <br />abierta de Naruto</div>
-                                    <a href="">
-                                        <div className='price-old'>$299.990</div>
-                                        <div className='price-new'>$269.991</div>
-                                    </a>
-                                    <button>VER PRODUCTO</button>
-                                </div>
-                                <div className='item-product'> 
-                                    <img src="https://moviesshopco.vteximg.com.br/arquivos/ids/166958/233046_frente_movies.jpg?v=637403598594430000" alt="" />
-                                    <div className='title-item'>STAR WARS</div>
-                                    <div className='description-item'>Buzo de hombre, manga<br />larga regular fit negra de</div>
-                                    <a href="">
-                                        <div className='price-old'>$179.990</div>
-                                        <div className='price-new'>$125.993</div>
-                                    </a>
-                                    <button>VER PRODUCTO</button>
-                                </div>
-                                <div className='item-product'> 
-                                    <img src="https://moviesshopco.vteximg.com.br/arquivos/ids/172985/229724_frente_movies.jpg?v=638059337008800000" alt="" />
-                                    <div className='title-item'>MARVEL</div>
-                                    <div className='description-item'>Buzo de hombre, manga <br />larga regular fit</div>
-                                    <a href="">
-                                        <div className='price-old'>$164.990</div>
-                                        <div className='price-new'>$148.491</div>
-                                    </a>
-                                    <button>VER PRODUCTO</button>
-                                </div>
-                                <div className='item-product'> 
-                                    <img src="https://moviesshopco.vteximg.com.br/arquivos/ids/171543/233945_Movies_LookBookNaruto.jpg?v=637874453684400000" alt="" />
-                                    <div className='title-item'>NARUTO</div>
-                                    <div className='description-item'>Buzo amarillo Naruto, con <br />capota para hombre de</div>
-                                    <a href="">
-                                        <div className='price-old'>$299.990</div>
-                                        <div className='price-new'>$206.991</div>
-                                    </a>
-                                    <button>VER PRODUCTO</button>
-                                </div>
-                                <div className='item-product'> 
-                                    <div>
-                                        <img src="https://moviesshopco.vteximg.com.br/arquivos/ids/173097/236791-233843_3_Varsity_MVS.jpg?v=638092167529670000" alt="" />
+                                {
+                                    !!listProducts ? listProducts.interest?.map((data) => 
+                                        <div className='item-product' key={data.id} > 
+                                        <img src={data.image} alt="" />
+                                        <div className='title-item'>{data.title}</div>
+                                        <div className='description-item'>{data.description}<br />{data.description2}</div>
+                                        <a href="">
+                                            <div className='price-old'>{data.priceold}</div>
+                                            <div className='price-new'>{data.pricenew}</div>
+                                        </a>
+                                        <button>VER PRODUCTO</button>
                                     </div>
-                                    <div className='title-item'>NARUTO</div>
-                                    <div className='description-item'>Chaqueta de hombre, <br />abierta de Naruto</div>
-                                    <a href="">
-                                        <div className='price-old'>$299.990</div>
-                                        <div className='price-new'>$269.991</div>
-                                    </a>
-                                    <button>VER PRODUCTO</button>
-                                </div>
+                            
+                                     ) : null
+                                }
+                                
                             </div>
 
                         </div>
@@ -222,58 +197,21 @@ export const Outlet = () => {
                                 <div className='title-others-products'>Seleccionados para <span>TI</span></div>
                             </div>
                             <div className='items-products'>
-                                <div className='item-product'> 
-                                    <img src="https://moviesshopco.vteximg.com.br/arquivos/ids/173083/236733_2_Varsity_MVS.jpg?v=638091326715200000" alt="" />
-                                    <div className='title-item'>NARUTO</div>
-                                    <div className='description-item'>Chaqueta de hombre, <br />abierta de Naruto</div>
-                                    <a href="">
-                                        <div className='price-old'>$299.990</div>
-                                        <div className='price-new'>$269.991</div>
-                                    </a>
-                                    <button>VER PRODUCTO</button>
-                                </div>
-                                <div className='item-product'> 
-                                    <img src="https://moviesshopco.vteximg.com.br/arquivos/ids/173103/236793_Varsity_MVS.jpg?v=638092231626700000" alt="" />
-                                    <div className='title-item'>STAR WARS</div>
-                                    <div className='description-item'>Buzo de hombre, manga<br />larga regular fit negra de</div>
-                                    <a href="">
-                                        <div className='price-old'>$179.990</div>
-                                        <div className='price-new'>$125.993</div>
-                                    </a>
-                                    <button>VER PRODUCTO</button>
-                                </div>
-                                <div className='item-product'> 
-                                    <img src="https://moviesshopco.vteximg.com.br/arquivos/ids/173187/236847-camiseta-hombre-star-wars-manga-corta-1.jpg?v=638098286660570000" alt="" />
-                                    <div className='title-item'>MARVEL</div>
-                                    <div className='description-item'>Buzo de hombre, manga <br />larga regular fit</div>
-                                    <a href="">
-                                        <div className='price-old'>$164.990</div>
-                                        <div className='price-new'>$148.491</div>
-                                    </a>
-                                    <button>VER PRODUCTO</button>
-                                </div>
-                                <div className='item-product'> 
-                                    <img src="https://moviesshopco.vteximg.com.br/arquivos/ids/172949/SummerChill_MVS_236706.jpg?v=638058525383870000" alt="" />
-                                    <div className='title-item'>NARUTO</div>
-                                    <div className='description-item'>Buzo amarillo Naruto, con <br />capota para hombre de</div>
-                                    <a href="">
-                                        <div className='price-old'>$299.990</div>
-                                        <div className='price-new'>$206.991</div>
-                                    </a>
-                                    <button>VER PRODUCTO</button>
-                                </div>
-                                <div className='item-product'> 
-                                    <div>
-                                        <img src="https://moviesshopco.vteximg.com.br/arquivos/ids/173097/236791-233843_3_Varsity_MVS.jpg?v=638092167529670000" alt="" />
-                                    </div>
-                                    <div className='title-item'>NARUTO</div>
-                                    <div className='description-item'>Chaqueta de hombre, <br />abierta de Naruto</div>
-                                    <a href="">
-                                        <div className='price-old'>$299.990</div>
-                                        <div className='price-new'>$269.991</div>
-                                    </a>
-                                    <button>VER PRODUCTO</button>
-                                </div>
+                                {
+                                        !!listProducts ? listProducts.selected?.map((data) => 
+                                            <div className='item-product' key={data.id} > 
+                                            <img src={data.image} alt="" />
+                                            <div className='title-item'>{data.title}</div>
+                                            <div className='description-item'>{data.description}<br />{data.description2}</div>
+                                            <a href="">
+                                                <div className='price-old'>{data.priceold}</div>
+                                                <div className='price-new'>{data.pricenew}</div>
+                                            </a>
+                                            <button>VER PRODUCTO</button>
+                                        </div>
+                                
+                                         ) : null
+                                }    
                             </div>
                         </div>
 

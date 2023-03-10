@@ -1,0 +1,98 @@
+{ 
+    "listPrices": {
+      "interest": 
+      [ 
+      { 
+        "id": 1, 
+        "image": "https://moviesshopco.vteximg.com.br/arquivos/ids/173253/234571-abrigos-y-chaquetas-hombre-naruto-shippuden-chaqueta-1.jpg?v=638107753976430000", 
+        "title": "NARUTO",
+        "description": "Chaqueta de hombre,",
+        "description2": "abierta de Naruto",
+        "priceold": "$299.990",
+        "pricenew": "$269.991"
+      },
+      { 
+        "id": 2, 
+        "image": "https://moviesshopco.vteximg.com.br/arquivos/ids/166958/233046_frente_movies.jpg?v=637403598594430000", 
+        "title": "STAR WARS",
+        "description": "Buzo de hombre, manga",
+        "description2": "larga regular fit negra de",
+        "priceold": "$179.990",
+        "pricenew": "$125.993"
+      },
+      { 
+        "id": 3, 
+        "image": "https://moviesshopco.vteximg.com.br/arquivos/ids/172985/229724_frente_movies.jpg?v=638059337008800000", 
+        "title": "MARVEL",
+        "description": "Buzo de hombre, manga",
+        "description2": "larga regular fit",
+        "priceold": "$164.990",
+        "pricenew": "$148.491"
+      },
+      { 
+        "id": 4, 
+        "image": "https://moviesshopco.vteximg.com.br/arquivos/ids/171543/233945_Movies_LookBookNaruto.jpg?v=637874453684400000", 
+        "title": "NARUTO",
+        "description": "Buzo amarillo Naruto, con ",
+        "description2": "capota para hombre de",
+        "priceold": "$299.990",
+        "pricenew": "$206.991"
+      },
+      { 
+        "id": 5, 
+        "image": "https://moviesshopco.vteximg.com.br/arquivos/ids/173097/236791-233843_3_Varsity_MVS.jpg?v=638092167529670000", 
+        "title": "NARUTO",
+        "description": "Chaqueta de hombre, ",
+        "description2": "abierta de Naruto",
+        "priceold": "$299.990",
+        "pricenew": "$269.991"
+      }
+    ],
+  "selected":[
+    {
+        "id": 6, 
+        "image": "https://moviesshopco.vteximg.com.br/arquivos/ids/173083/236733_2_Varsity_MVS.jpg?v=638091326715200000", 
+        "title": "STAR WARS",
+        "description": "Camiseta de hombre,",
+        "description2": "verde militar de",
+        "priceold": "$89.990",
+        "pricenew": "$80.991"
+    },
+    {
+        "id": 7, 
+        "image": "https://moviesshopco.vteximg.com.br/arquivos/ids/173103/236793_Varsity_MVS.jpg?v=638092231626700000", 
+        "title": "STAR WARS",
+        "description": "Camiseta de Mandalorian",
+        "description2": "manga corta gris grafito",
+        "priceold": "$84.990",
+        "pricenew": "$76.491"
+    },
+    {
+        "id": 8, 
+        "image": "https://moviesshopco.vteximg.com.br/arquivos/ids/173187/236847-camiseta-hombre-star-wars-manga-corta-1.jpg?v=638098286660570000", 
+        "title": "STAR WARS",
+        "description": "Camiseta de hombre",
+        "description2": "manga corta blanca de",
+        "priceold": "$89.990",
+        "pricenew": "$80.991"
+    },
+    {
+        "id": 9, 
+        "image": "https://moviesshopco.vteximg.com.br/arquivos/ids/172949/SummerChill_MVS_236706.jpg?v=638058525383870000", 
+        "title": "DRAGON BALL",
+        "description": "Pantaloneta de baño de",
+        "description2": "Dragon Ball Z negra y",
+        "priceold": "",
+        "pricenew": "119.990"
+    },
+    {
+        "id": 10, 
+        "image": "https://moviesshopco.vteximg.com.br/arquivos/ids/170168/JGL-RM023-1.jpg?v=637740725308000000", 
+        "title": "WARNER BROS",
+        "description": "Gorra de hombre, negra/",
+        "description2": "verde de Rick and Morty",
+        "priceold": "",
+        "pricenew": "$59.990"
+    }
+  ]}
+  }
