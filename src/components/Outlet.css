@@ -189,9 +189,7 @@ button {
 .add-to-bag {
     padding: 50px 0;
 }
-hr{
-    margin-top: -40px;
-}
+
 .main-container__s2__details{
     margin: 16px 0;
     font-size: 13px;
@@ -472,4 +470,109 @@ hr{
     border-radius: 50%;
     display: block;
     background: #ea0029;
+}
+
+@media screen and (max-width: 768px) {
+    .container__general-products{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slider {
+        display: flex;
+        max-width: 100%;
+        height: 338px;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+    } 
+    
+    .slider img{
+        width: 100%;
+        scroll-snap-align: center;
+    }
+    .information_product-actual{
+        margin-top: 20px;
+    }
+    .title__product {
+        font-size: 14px;
+        margin: 20px auto 0px;
+        text-align: left;
+        max-width: 346px;
+        line-height: 19px;
+        font-weight: bold;
+    }
+    .container__images--vertical{
+        display: flex;
+        flex-direction: column;
+    }
+    .id-product {
+        margin: 0px 10px 0px;
+    }
+    .container__details--products {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .price {
+        margin: 0px 10px 8px;
+    }
+
+    .title-others-products{
+        margin-top: 80px;
+    }
+    .selected .title-others-products {
+        margin-top: 40px;
+    }
+    .tallas {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        text-align: left;
+        margin-left: 25px;
+    }
+
+    .talla {
+        align-items: start;
+        margin-bottom: 20px;
+    }
+
+    .add-to-bag {
+        padding: 26px 0px;
+    }
+    .main-container__s2__details__summary {
+        margin-left: 20px;
+    }
+    .main-container__s2__details__paragraph{
+        margin: 10px 10px;
+    }
+    .credifijo-information{
+        margin-left: 20px;
+    }
+
+    .others-products, .selected{
+        padding: 0px 0px;
+    }
+    .items-products {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-content: center;
+        margin-left: 40px;
+    }
+    .item-product button{
+      width: 170px;
+      margin-left: 0px;
+    }
+
+    .send-information {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .car-information, .clock-send {
+        padding-bottom: 10px;
+    }
+
 }

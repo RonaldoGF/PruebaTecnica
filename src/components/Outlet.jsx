@@ -33,7 +33,194 @@ export const Outlet = () => {
   return (
     <>
         { 
-            sizeWindow && sizeWindow.width <=768 ? ''
+            sizeWindow && sizeWindow.width <=768 ? 
+            <div className='outlet'>
+                <div className='information_product-actual'>
+                        <a href="">Movies /</a>
+                        <a href="">Hombre /</a>
+                        <a href="">Chaquetas y Buzos /</a>
+                        <span>Chaqueta género neutro, caqui con cierre de Mandalorian</span>
+                </div>
+                <div className='slider'>
+                        <img src="https://moviesshopco.vtexassets.com/arquivos/ids/173068-1600-1600?v=638091310430670000&width=1600&height=1600&aspect=true" alt="" />
+                        <img src="https://moviesshopco.vtexassets.com/arquivos/ids/173069-1600-1600?v=638091311513030000&width=1600&height=1600&aspect=true" alt="" />
+                        <img src="https://moviesshopco.vtexassets.com/arquivos/ids/173070-1600-1600?v=638091311685100000&width=1600&height=1600&aspect=truetps://moviesshopco.vtexassets.com/arquivos/ids/173076-1600-1600?v=638091312915630000&width=1600&heighttps://moviesshopco.vtexassets.com/arquivos/ids/173070-1600-1600?v=638091311685100000&width=1600&height=1600&aspect=true=1600&aspect=true" alt="" /> 
+                        <img src="https://moviesshopco.vtexassets.com/arquivos/ids/173071-1600-1600?v=638091311783300000&width=1600&height=1600&aspect=true" alt="" />                            
+                        <img src="https://moviesshopco.vtexassets.com/arquivos/ids/173072-1600-1600?v=638091312048800000&width=1600&height=1600&aspect=true" alt="" />                            
+                        <img src="https://moviesshopco.vtexassets.com/arquivos/ids/173073-1600-1600?v=638091312233030000&width=1600&height=1600&aspect=true" alt="" />                            
+                        <img src="https://moviesshopco.vtexassets.com/arquivos/ids/173074-1600-1600?v=638091312428370000&width=1600&height=1600&aspect=true" alt="" />                            
+                        <img src="https://moviesshopco.vtexassets.com/arquivos/ids/173076-1600-1600?v=638091312915630000&width=1600&height=1600&aspect=true" alt="" />                            
+                        <img src="https://moviesshopco.vtexassets.com/arquivos/ids/173077-1600-1600?v=638091313610530000&width=1600&height=1600&aspect=true" alt="" />          
+                    </div>
+                <div className='container__general-products'>
+                    <div className='container__details--products'>
+                                <span className='title__product'>CHAQUETA GÉNERO NEUTRO, CAQUI CON CIERRE DE MANDALORIAN</span>
+                                <div className='id-product'>
+                                    <div>STAR WARS <span className='identificador'>Ref. 236732-130908-L</span></div>
+                                </div>
+                                <div className='price'>
+                                    <div className='price1'>$ 259.990</div>
+                                    <div className='price2' >$233.991</div>
+                                </div>
+                                <div className="tallas">
+                                    <div className='talla'>
+                                        <div>S</div>
+                                        <div>M</div>
+                                        <div>L</div>
+                                        <div>XL</div>
+                                    </div>
+                                    <div className='Guia'>
+                                        Guía de tallas
+                                    </div>
+                                </div>
+                                <div className='add-to-bag'>
+                                        <button>-</button>
+                                        <button>1</button>
+                                        <button>+</button>
+                                    <button className='add'>AGREGAR A MI BOLSA</button>
+                                </div>
+                                <hr />
+                                <div className='main-container__s2'>
+                                    <details className ="main-container__s2__add-favorites">
+                                        <summary className ="main-container__s2__details__summary"><svg xmlns="http://www.w3.org/2000/svg" height="17" viewBox="0 96 960 960" width="30"><path d="m480 935-41-37q-105.768-97.121-174.884-167.561Q195 660 154 604.5T96.5 504Q80 459 80 413q0-90.155 60.5-150.577Q201 202 290 202q57 0 105.5 27t84.5 78q42-54 89-79.5T670 202q89 0 149.5 60.423Q880 322.845 880 413q0 46-16.5 91T806 604.5Q765 660 695.884 730.439 626.768 800.879 521 898l-41 37Zm0-79q101.236-92.995 166.618-159.498Q712 630 750.5 580t54-89.135q15.5-39.136 15.5-77.72Q820 347 778 304.5T670.225 262q-51.524 0-95.375 31.5Q531 325 504 382h-49q-26-56-69.85-88-43.851-32-95.375-32Q224 262 182 304.5t-42 108.816Q140 452 155.5 491.5t54 90Q248 632 314 698t166 158Zm0-297Z"/></svg>AGREGAR A FAVORITOS </summary> 
+                                    </details>
+
+                                    <details className ="main-container__s2__details">
+                                        <summary className ="main-container__s2__details__summary">Descripción del producto<img className='main-container__s2__details__icon' src="https://www.iconpacks.net/icons/2/free-arrow-down-icon-3101-thumb.png" alt="" /> </summary>
+                                        <p className="main-container__s2__details__paragraph">¡El estilo que cautivará su clóset! Una chaqueta ideal para a
+                                        compañar sus ocasiones más especiales y lucir muy cool. Cuenta con cierre en frente para más practicidad y comodidad. 
+                                        Bolsillos laterales y cuello redondo que lo harán sentir cómodo y lleno de confort. Estampado posterior, mangas y en el frente. Cuello, puños y ruedo en contraste. Perfecta para combinar con jean y tenis.</p>
+                                    </details>
+                                    
+                                        
+                                    <details className ="main-container__s2__details">
+                                        <summary className ="main-container__s2__details__summary">Especificaciones<img className='main-container__s2__details__icon' src="https://www.iconpacks.net/icons/2/free-arrow-down-icon-3101-thumb.png" alt="" /> </summary>
+                                        <p className="main-container__s2__details__paragraph"><span>País de fabricación:</span> 
+                                        <br /> Colombia - FABRICANTE/IMPORTADOR: Maquila Internacional de confección
+                                        <br /> <span>Registro Sic:</span> 
+                                        <br /> 811007991-8
+                                        <br /> <span>Especificaciones:</span> 
+                                        <br /> Diseño: Chaqueta impermeable con cierre frontal, estampado en mangas y espalda. Cuello redondo y bolsillos laterales. Estampado frontal
+                                        <br /> <span>Color:</span> 
+                                        <br /> Caqui/Negro</p>
+                                    </details>
+                                
+                                    <details className ="main-container__s2__details">
+                                        <summary className ="main-container__s2__details__summary">Composición<img className='main-container__s2__details__icon' src="https://www.iconpacks.net/icons/2/free-arrow-down-icon-3101-thumb.png" alt="" /> </summary>
+                                        <p className="main-container__s2__details__paragraph">74% Poliéster 24% Algodón 2% Elastano</p>
+                                    </details>
+
+                                    <details className ="main-container__s2__details">
+                                        <summary className ="main-container__s2__details__summary">Cuidados<img className='main-container__s2__details__icon' src="https://www.iconpacks.net/icons/2/free-arrow-down-icon-3101-thumb.png" alt="" /> </summary>
+                                        <p className="main-container__s2__details__paragraph">- Lavar a mano o en máquina - No lavar en seco - No dejar en remojo 
+                                        - No retorcer ni exprimir - Usar agua fría - Usar jabón suave - No usar blanqueador - No blanquear - No usar secadora - No planchar - Secado en tendedero a la sombra</p>
+                                    </details>
+
+                                    <details className ="main-container__s2__details">
+                                        <summary className ="main-container__s2__details__summary">Descubre más<img className='main-container__s2__details__icon' src="https://www.iconpacks.net/icons/2/free-arrow-down-icon-3101-thumb.png" alt="" /> </summary>
+                                        <p className="main-container__s2__details__paragraph">¡Una chaqueta muy cool! Ahora los looks serán más auténticos y llenos de estilo. Lucirá increíble en cualquier ocasión. Sigue en Movies y conoce más prendas como esta.</p>
+                                    </details>
+                                </div>
+                                <div>
+                                    <div className='credifijo-information'>
+                                        <div>
+                                            <img src="https://moviesshopco.vtexassets.com/arquivos/logoBlanco_resize.png" alt="" />
+                                        </div>
+                                        <div className='credifijo-description'>
+                                            Compra ahora y págalo hasta en 6 cuotas con Credifin. <a href="#">Solicita aquí tu crédito.</a> 
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div> 
+                </div>
+
+                    <div className='others-products'>
+                            <div>
+                                <div className='title-others-products'>También te puede <span>INTERESAR</span></div>
+                            </div>
+                            <div className='items-products'>
+                                <div className='item-product'> 
+                                    <img src='https://moviesshopco.vteximg.com.br/arquivos/ids/173253/234571-abrigos-y-chaquetas-hombre-naruto-shippuden-chaqueta-1.jpg?v=638107753976430000' alt="" />
+                                    <div className='title-item'>STAR WARS</div>
+                                    <div className='description-item'>Buzo de Mandalorian estampado<br />verde militar para hombre</div>
+                                    <a href="">
+                                        <div className='price-old'>$159.900</div>
+                                        <div className='price-new'>$143.991</div>
+                                    </a>
+                                        <button>VER PRODUCTO</button>
+                                    </div>
+                                <div className='item-product'> 
+                                    <img src='https://moviesshopco.vteximg.com.br/arquivos/ids/166958/233046_frente_movies.jpg?v=637403598594430000' alt="" />
+                                    <div className='title-item'>STAR WARS</div>
+                                    <div className='description-item'>Buzo de hombre, manga<br />larga regular fit negra de</div>
+                                    <a href="">
+                                        <div className='price-old'>$179.990</div>
+                                        <div className='price-new'>$125.993</div>
+                                    </a>
+                                        <button>VER PRODUCTO</button>
+                                    </div>
+                            </div>
+
+                            <div className='selected'>
+                                <div>
+                                    <div className='title-others-products'>Seleccionados para <span>TI</span></div>
+                                </div>
+                                <div className='items-products'>
+                                    <div className='item-product'> 
+                                        <img src='https://moviesshopco.vteximg.com.br/arquivos/ids/173083/236733_2_Varsity_MVS.jpg?v=638091326715200000' alt="" />
+                                        <div className='title-item'>STAR WARS</div>
+                                        <div className='description-item'>Camiseta de hombre,<br />verde militar de</div>
+                                        <a href="">
+                                            <div className='price-old'>$89.990</div>
+                                            <div className='price-new'>$80.991</div>
+                                        </a>
+                                        <button>VER PRODUCTO</button>
+                                    </div>
+                                    <div className='item-product'> 
+                                        <img src='https://moviesshopco.vteximg.com.br/arquivos/ids/173103/236793_Varsity_MVS.jpg?v=638092231626700000' alt="" />
+                                        <div className='title-item'>STAR WARS</div>
+                                        <div className='description-item'>Camiseta de Mandalorian<br />manga corta gris grafito</div>
+                                        <a href="">
+                                            <div className='price-old'>$84.990</div>
+                                            <div className='price-new'>$76.491</div>
+                                        </a>
+                                        <button>VER PRODUCTO</button>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='send-information'>
+                        <div className='car-information'>
+                            <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-truck" width="24" height="17" viewBox="0 0 24 24" strokeWidth="2" 
+                            stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M7 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                            <path d="M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                            <path d="M5 17h-2v-11a1 1 0 0 1 1 -1h9v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5" /></svg>
+                            <p>Envío <span>a toda Colombia</span> </p>
+                        </div>
+                        <div className="clock-send">
+                            <img src="https://svgsilh.com/svg/27832.svg" width="24" height="17" alt="" />
+                            <p>Tiempo de entrega <span>3 a 7 <br /> días hábiles</span></p>
+                        </div>
+                    </div>                          
+                    <div className='information'>
+                        <div className='information-icon-advice'>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M7 16h34v-5H7Zm-3-5q0-1.2.9-2.1Q5.8 8 7 8h34q1.2 0 2.1.9.9.9.9 2.1v11.95H7V37h11.65v3H7q-1.2 0-2.1-.9Q4 38.2 4 37Zm25.9 33-8.5-8.5 2.15-2.15 6.35 6.35 12-12 2.1 2.2ZM7 11v26-7.9 6.5V11Z"/></svg>
+                            <div>Pagos <br /> <span>seguros</span> </div>
+                        </div>
+                        <div className='information-icon-advice'>
+                            <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-truck" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M7 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                            <path d="M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                            <path d="M5 17h-2v-11a1 1 0 0 1 1 -1h9v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5" />
+                            </svg>
+                            <div>Envío a <span>todo <br />el país</span></div>
+                        </div>
+                    </div>     
+                    
+
+            </div> 
             :  
             <div className='outlet'>
                     <div className='information_product-actual'>

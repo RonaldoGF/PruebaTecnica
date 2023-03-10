@@ -123,3 +123,62 @@
     width: 512.61px;
     height: 31.48px;
 }
+
+@media screen and (max-width: 768px) {
+    .container-history {
+        margin: 0px 20px;
+    }
+
+    .container-history-title span {
+        font-size: 18px;
+    }
+    .container-history-title p {
+        font-size: 11px;
+        margin: 5px 0px 38px;
+        text-transform: lowercase;
+        font-weight: 400;
+    }
+
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: start;
+        border: none;
+        padding: 0;
+        gap: 0px;
+    }
+    .formulario div{
+        border: none;
+        padding: 0;
+    }
+    .formulario hr { 
+       width: 250px; 
+    }
+    .genero div {
+        margin: 10px 0px 0px;
+    }
+    .genero-checkbox {
+        align-items: center;
+        justify-content: space-between;
+    }
+    .conditions{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .conditions div {
+        margin: 17px 0px 0px;
+        margin-bottom: 10px;
+    }
+    .conditions span{
+        font-weight: normal;
+    }
+    .conditions button {
+        margin: 0px;
+    }
+    .image-conventions img{
+        width: 337.5px;
+        height: 20.73px;
+    }
+}
