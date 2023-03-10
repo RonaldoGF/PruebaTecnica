@@ -496,6 +496,7 @@ button {
     .title__product {
         font-size: 14px;
         margin: 20px auto 0px;
+        margin-left: 10px;
         text-align: left;
         max-width: 346px;
         line-height: 19px;

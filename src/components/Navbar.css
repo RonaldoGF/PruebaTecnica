@@ -38,6 +38,53 @@ a {
   font-weight: bold;
 }
 
+.dropdown-nav {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  top: 88px;
+  left: 20%;
+  min-width: 870px;
+  min-height: 350px;
+  z-index: 1;
+  color: #000;
+}
+
+.dropdown-nav a{
+  color: #3f3f40;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  letter-spacing: normal;
+  font-weight: normal;
+  padding-top: 10px;
+}
+
+.dropdown-nav div {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+.dropdown-nav h4 {
+  color: rgb(238, 105, 48);
+  letter-spacing: 0.5em;
+  font-size: 20px;
+}
+.dropdown-nav a{
+  cursor: pointer;
+  background-size: 0% 2px;
+  background-position: left bottom;
+}
+.dropdown-nav a:hover{
+  content: '';
+  background-size: 100% 2px;
+}
+
+.nav__menu:hover .dropdown-nav{
+  display: flex;
+  flex-direction: column;
+}
+
+
 .title__advice {
     display: block;
     width: 100%;
