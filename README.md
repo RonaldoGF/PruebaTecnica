@@ -11,5 +11,5 @@ Una vez ejecutado el comando podrás visualizar el proyecto el cual contiene una
 
 Es un proyecto realizado como prueba técnica para el proceso de selección diseñado en react donde se hacen uso de algunos hooks, se hace el consumo de un JSON local que proporciona cierta información y sea adaptable a dispositivos móviles y de escritorio
 
-<image src="C:\Users\Ronal\Downloads\Desktop.PNG" alt = "Desktop">
-<image src="C:\Users\Ronal\Downloads\Mobile.PNG" alt = "Mobile">
+![Desktop](https://i.postimg.cc/PrSq3LpL/Desktop.png)
+![Mobile](https://postimg.cc/HjNdpyXB)
