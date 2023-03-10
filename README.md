@@ -1,5 +1,15 @@
-## Para instalar el siguiente proyecto debes instalar las dependencias con yarn add y para correr el proyecto yarn dev
+## Bienvenid@!
+**Instalación**
 
-# Proyecto prueba de selección
+Debes instalar las dependencias con yarn add y posteriormente ejecutar el comando: 
 
-### El siguiente proyecto es basado en https://www.moviesshop.co/chaqueta-hombre-mandalorian-236732/p?skuId=12255 como sitio principal para realizar una "replica" de la misma, desarrollada principalmente como prueba de selección. 
+"yarn dev"
+
+Una vez ejecutado el comando podrás visualizar el proyecto el cual contiene una pequeña "replica" del sitio https://www.moviesshop.co/chaqueta-hombre-mandalorian-236732/p?skuId=12255.
+
+#### Introducción
+
+Es un proyecto realizado como prueba técnica para el proceso de selección diseñado en react donde se hacen uso de algunos hooks, se hace el consumo de un JSON local que proporciona cierta información y sea adaptable a dispositivos móviles y de escritorio
+
+<image src="C:\Users\Ronal\Downloads\Desktop.PNG" alt = "Desktop">
+<image src="C:\Users\Ronal\Downloads\Mobile.PNG" alt = "Mobile">
