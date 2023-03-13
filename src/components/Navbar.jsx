@@ -104,7 +104,21 @@ export const Navbar = () => {
         : 
         <ul className="nav__menu">
             <a href = "#" className="nav__brand"><img src="https://moviesshopco.vtexassets.com/assets/vtex/assets-builder/moviesshopco.theme3/3.0.40/movies-logo___38662b246dad72023156ecfd25bec311.svg" alt="" /></a>
-            <li className = "nav__item"><a href = "#" className = 'nav__link' id='mujer'>MUJER</a></li>
+            <div className='men'>
+                <li className = "nav__item"><a href = "#" className = 'nav__link' id='mujer'>MUJER</a></li>
+                <div className='dropdown-nav'>
+                    <div>
+                    <h4>MUJER</h4>
+                    <a href="">Camisetas</a>
+                    <a href="">Pijamas</a>
+                    <a href="">Ropa interior</a>
+                    <a href="">Chaquetas y Buzos</a>
+                    <a href="">Joggers, pantalones y shorts</a>
+                    <a href="">Calzado</a>
+                    <a href="">Accesorios</a>
+                    </div>
+                </div>
+            </div>
             <li className = "nav__item"><a href = "#" className = 'nav__link'>HOMBRE</a></li>
             <li className = "nav__item"><a href = "#" className = 'nav__link' id='newarrivals'>NEW ARRIVALS</a></li>
             <li className = "nav__item"><a href = "#" className = 'nav__link' id='basicos'>BÁSICOS</a></li>
@@ -116,26 +130,12 @@ export const Navbar = () => {
                             <img className='search' src="https://moviesshopco.vtexassets.com/assets/vtex/assets-builder/moviesshopco.theme3/3.0.40/search___09b655665e53917126ff14335ac8a0cb.svg" alt="" />
                     </div>
                 </li>
-            <li className = "nav__item"> <img className='help' src="https://moviesshopco.vtexassets.com/assets/vtex/assets-builder/moviesshopco.theme3/3.0.40/faq___644975c18e3eaa506fbf13b6ad9c920b.svg" alt="" /> </li>
-            <li className = "nav__item"> <img className='account' src="https://moviesshopco.vtexassets.com/assets/vtex/assets-builder/moviesshopco.theme3/3.0.40/user-icon___ef462ae332ac1193a82a58bfde8ac473.svg" alt="" /> </li>
-            <li className = "nav__item"> <img className='favorites' src="https://moviesshopco.vtexassets.com/assets/vtex/assets-builder/moviesshopco.theme3/3.0.40/heart-icon___5e5273482e1c181e22053a06bc56956d.svg" alt="" /> </li>
-            <li className = "nav__item"> <img className='map' src="https://moviesshopco.vtexassets.com/arquivos/map-locator-2.svg" alt=""/> </li>
-            <li className = "nav__item"> <img className='car-buy' src="https://moviesshopco.vtexassets.com/assets/vtex/assets-builder/moviesshopco.theme3/3.0.40/shopping___eba0ed4ccfbadce9d287241eabeed60f.svg" alt=""/> </li>
-            <div className='dropdown-nav'>
-                <div>
-                <h4>MUJER</h4>
-                <a href="">Camisetas</a>
-                <a href="">Pijamas</a>
-                <a href="">Ropa interior</a>
-                <a href="">Chaquetas y Buzos</a>
-                <a href="">Joggers, pantalones y shorts</a>
-                <a href="">Calzado</a>
-                <a href="">Accesorios</a>
-                </div>
-            </div>
-            </div>
-
-            
+                <li className = "nav__item"> <img className='help' src="https://moviesshopco.vtexassets.com/assets/vtex/assets-builder/moviesshopco.theme3/3.0.40/faq___644975c18e3eaa506fbf13b6ad9c920b.svg" alt="" /> </li>
+                <li className = "nav__item"> <img className='account' src="https://moviesshopco.vtexassets.com/assets/vtex/assets-builder/moviesshopco.theme3/3.0.40/user-icon___ef462ae332ac1193a82a58bfde8ac473.svg" alt="" /> </li>
+                <li className = "nav__item"> <img className='favorites' src="https://moviesshopco.vtexassets.com/assets/vtex/assets-builder/moviesshopco.theme3/3.0.40/heart-icon___5e5273482e1c181e22053a06bc56956d.svg" alt="" /> </li>
+                <li className = "nav__item"> <img className='map' src="https://moviesshopco.vtexassets.com/arquivos/map-locator-2.svg" alt=""/> </li>
+                <li className = "nav__item"> <img className='car-buy' src="https://moviesshopco.vtexassets.com/assets/vtex/assets-builder/moviesshopco.theme3/3.0.40/shopping___eba0ed4ccfbadce9d287241eabeed60f.svg" alt=""/> </li>
+            </div>  
         </ul> 
         }
         
